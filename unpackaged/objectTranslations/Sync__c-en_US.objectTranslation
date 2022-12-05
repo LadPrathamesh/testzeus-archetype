@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sync Jobs</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sync Jobs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Finish Timestamp --></label>
+        <name>Finish_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>Object__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation><!-- Opportunity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Records Checked --></label>
+        <name>Records_Checked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records Inserted --></label>
+        <name>Records_Inserted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records Updated --></label>
+        <name>Records_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Script Name --></label>
+        <name>Script_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Beckman</masterLabel>
+            <translation><!-- Beckman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDBS</masterLabel>
+            <translation><!-- IDBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leica</masterLabel>
+            <translation><!-- Leica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldev</masterLabel>
+            <translation><!-- Moldev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCIEX</masterLabel>
+            <translation><!-- SCIEX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Timestamp --></label>
+        <name>Start_Timestamp__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OpCo Account Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OpCo Accounts Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- OpCo Accounts Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Annual Revenue --></label>
+        <name>Annual_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>Billing_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Country --></label>
+        <name>Billing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State --></label>
+        <name>Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street --></label>
+        <name>Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Zip --></label>
+        <name>Billing_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- DUNS Number --></label>
+        <name>DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpCo Record Deleted Date --></label>
+        <name>DeletedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employees --></label>
+        <name>Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Global Parent Id --></label>
+        <name>Global_Parent_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsDeleted --></label>
+        <name>IsDeleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Distributor/ Partner? --></label>
+        <name>Is_Distributor_Partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Synced --></label>
+        <name>Is_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Account Manager --></label>
+        <name>Key_Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Name --></label>
+        <name>Local_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Parenting --></label>
+        <name>Manual_Parenting__c</name>
+        <picklistValues>
+            <masterLabel>LSIG missing</masterLabel>
+            <translation><!-- LSIG missing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matched with LSIG</masterLabel>
+            <translation><!-- Matched with LSIG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Market Segment --></label>
+        <name>Market_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpCo Last Modified Date --></label>
+        <name>OpCoLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpCo Related Contact --></label>
+        <name>OpCo_Related_Contact__c</name>
+        <relationshipLabel><!-- OpCo Accounts Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Synced --></label>
+        <name>Opportunity_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping City --></label>
+        <name>Shipping_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Country --></label>
+        <name>Shipping_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping State --></label>
+        <name>Shipping_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street --></label>
+        <name>Shipping_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Zip --></label>
+        <name>Shipping_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Site --></label>
+        <name>Site__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this if you dont want Salesforce to auro-find &amp; select DUNS Parent for this OpCo Account. --></help>
+        <label><!-- Skip Re-parenting? --></label>
+        <name>Skip_Re_parenting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skip Trigger --></label>
+        <name>Skip_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Link --></label>
+        <name>Source_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source OpCo Owner Email --></label>
+        <name>Source_OpCo_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source OpCo Owner Id --></label>
+        <name>Source_OpCo_Owner_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source OpCo Owner --></label>
+        <name>Source_OpCo_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source OpCo Record Id --></label>
+        <name>Source_OpCo_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source OpCo --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Beckman</masterLabel>
+            <translation><!-- Beckman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDBS</masterLabel>
+            <translation><!-- IDBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leica</masterLabel>
+            <translation><!-- Leica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldev</masterLabel>
+            <translation><!-- Moldev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCIEX</masterLabel>
+            <translation><!-- SCIEX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total OpCo Contacts --></label>
+        <name>Total_OpCo_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Opportunities --></label>
+        <name>Total_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Code --></label>
+        <name>Unit_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>Website__c</name>
+    </fields>
+    <layouts>
+        <layout>OpCo Account Data Backup</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OpCo Account Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

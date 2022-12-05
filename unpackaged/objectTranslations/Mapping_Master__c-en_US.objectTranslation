@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mapping Master</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mapping Masters</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dead/Cancelled or Deal Lost</masterLabel>
+            <translation><!-- Dead/Cancelled or Deal Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won</masterLabel>
+            <translation><!-- Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won or Lost</masterLabel>
+            <translation><!-- Won or Lost --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom Logic Required --></label>
+        <name>Custom_Logic_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Field --></label>
+        <name>Destination_Field__c</name>
+        <picklistValues>
+            <masterLabel>Application Interest Segment</masterLabel>
+            <translation><!-- Application Interest Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation/Lost Data</masterLabel>
+            <translation><!-- Cancellation/Lost Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Data</masterLabel>
+            <translation><!-- Competitor Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Role</masterLabel>
+            <translation><!-- Contact Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry</masterLabel>
+            <translation><!-- Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Business</masterLabel>
+            <translation><!-- Line of Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Segment</masterLabel>
+            <translation><!-- Market Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Vertical</masterLabel>
+            <translation><!-- Marketing Vertical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation><!-- Product Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Interest</masterLabel>
+            <translation><!-- Product Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage</masterLabel>
+            <translation><!-- Stage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status</masterLabel>
+            <translation><!-- Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Application Interest Segment</masterLabel>
+            <translation><!-- Sub Application Interest Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type</masterLabel>
+            <translation><!-- Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type Lsig</masterLabel>
+            <translation><!-- Type Lsig --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Destination Value --></label>
+        <name>Destination_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>Object__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation><!-- Opportunity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Field --></label>
+        <name>Source_Field__c</name>
+        <picklistValues>
+            <masterLabel>ABS Primary Reason Won Lost</masterLabel>
+            <translation><!-- ABS Primary Reason Won Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Type</masterLabel>
+            <translation><!-- Account Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Details</masterLabel>
+            <translation><!-- Additional Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application</masterLabel>
+            <translation><!-- Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Interest</masterLabel>
+            <translation><!-- Application Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Interest List</masterLabel>
+            <translation><!-- Application Interest List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Interest Segment</masterLabel>
+            <translation><!-- Application Interest Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application of Interest</masterLabel>
+            <translation><!-- Application of Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Area of Interest</masterLabel>
+            <translation><!-- Area of Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Division</masterLabel>
+            <translation><!-- Business Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Segment</masterLabel>
+            <translation><!-- Business Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer Persona</masterLabel>
+            <translation><!-- Buyer Persona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competition</masterLabel>
+            <translation><!-- Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation><!-- Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor 1</masterLabel>
+            <translation><!-- Competitor 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor 2</masterLabel>
+            <translation><!-- Competitor 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor 3</masterLabel>
+            <translation><!-- Competitor 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Instrument 1 del</masterLabel>
+            <translation><!-- Competitor Instrument 1 del --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Instrument Lost Too</masterLabel>
+            <translation><!-- Competitor Instrument Lost Too --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Involvement Lost Too</masterLabel>
+            <translation><!-- Competitor Involvement Lost Too --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Product 1</masterLabel>
+            <translation><!-- Competitor Product 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Product 2</masterLabel>
+            <translation><!-- Competitor Product 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Product 3</masterLabel>
+            <translation><!-- Competitor Product 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Reason Won Lost</masterLabel>
+            <translation><!-- Competitor Reason Won Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor final price</masterLabel>
+            <translation><!-- Competitor final price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Role</masterLabel>
+            <translation><!-- Contact Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Status</masterLabel>
+            <translation><!-- Contact Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Type</masterLabel>
+            <translation><!-- Contact Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Account Type</masterLabel>
+            <translation><!-- Corporate Account Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Account Type</masterLabel>
+            <translation><!-- Customer Account Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Type</masterLabel>
+            <translation><!-- Customer Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer/Opportunity Type</masterLabel>
+            <translation><!-- Customer/Opportunity Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department</masterLabel>
+            <translation><!-- Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desired Product</masterLabel>
+            <translation><!-- Desired Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Division</masterLabel>
+            <translation><!-- Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSE Sales Rep Inside Sales</masterLabel>
+            <translation><!-- FSE Sales Rep Inside Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Application Detail</masterLabel>
+            <translation><!-- Global Application Detail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Application Segment</masterLabel>
+            <translation><!-- Global Application Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Business Unit</masterLabel>
+            <translation><!-- Global Business Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Product</masterLabel>
+            <translation><!-- Global Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Product Group</masterLabel>
+            <translation><!-- Global Product Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incumbent</masterLabel>
+            <translation><!-- Incumbent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry</masterLabel>
+            <translation><!-- Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry__c</masterLabel>
+            <translation><!-- Industry__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influence</masterLabel>
+            <translation><!-- Influence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institution Type</masterLabel>
+            <translation><!-- Institution Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Function</masterLabel>
+            <translation><!-- Job Function --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Role</masterLabel>
+            <translation><!-- Job Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Account Type</masterLabel>
+            <translation><!-- Key Account Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Opinion Leader</masterLabel>
+            <translation><!-- Key Opinion Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Source</masterLabel>
+            <translation><!-- Lead Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Business</masterLabel>
+            <translation><!-- Line of Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Type</masterLabel>
+            <translation><!-- Location Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost Reason</masterLabel>
+            <translation><!-- Lost Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost To</masterLabel>
+            <translation><!-- Lost To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDS Assignment</masterLabel>
+            <translation><!-- MDS Assignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main Competitor</masterLabel>
+            <translation><!-- Main Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market</masterLabel>
+            <translation><!-- Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Segment</masterLabel>
+            <translation><!-- Market Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Segment Detail</masterLabel>
+            <translation><!-- Market Segment Detail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Vertical</masterLabel>
+            <translation><!-- Market Vertical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Vertical 1</masterLabel>
+            <translation><!-- Market Vertical 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Vertical 2</masterLabel>
+            <translation><!-- Market Vertical 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarketVertical</masterLabel>
+            <translation><!-- MarketVertical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Type (Per TTM)</masterLabel>
+            <translation><!-- Opportunity Type (Per TTM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Persona</masterLabel>
+            <translation><!-- Persona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Application</masterLabel>
+            <translation><!-- Primary Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Competitor</masterLabel>
+            <translation><!-- Primary Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Products</masterLabel>
+            <translation><!-- Primary Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PrimaryApplication</masterLabel>
+            <translation><!-- PrimaryApplication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation><!-- Product Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Interest</masterLabel>
+            <translation><!-- Product Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Interest Software</masterLabel>
+            <translation><!-- Product Interest Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Interest System</masterLabel>
+            <translation><!-- Product Interest System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Line</masterLabel>
+            <translation><!-- Product Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Type</masterLabel>
+            <translation><!-- Product Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reason Canceled</masterLabel>
+            <translation><!-- Reason Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reason Canceled Details</masterLabel>
+            <translation><!-- Reason Canceled Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reason Won Lost</masterLabel>
+            <translation><!-- Reason Won Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reason Won Lost Dead Detail</masterLabel>
+            <translation><!-- Reason Won Lost Dead Detail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject Reason</masterLabel>
+            <translation><!-- Reject Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Application</masterLabel>
+            <translation><!-- Secondary Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Reason Won Lost</masterLabel>
+            <translation><!-- Secondary Reason Won Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Account Type</masterLabel>
+            <translation><!-- Special Account Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Designation</masterLabel>
+            <translation><!-- Special Designation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage</masterLabel>
+            <translation><!-- Stage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status</masterLabel>
+            <translation><!-- Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strat Initiative</masterLabel>
+            <translation><!-- Strat Initiative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Department</masterLabel>
+            <translation><!-- Sub Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Vertical</masterLabel>
+            <translation><!-- Sub Vertical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplementary Details</masterLabel>
+            <translation><!-- Supplementary Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type</masterLabel>
+            <translation><!-- Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertical Market</masterLabel>
+            <translation><!-- Vertical Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win Loss Comment</masterLabel>
+            <translation><!-- Win Loss Comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win Loss Reason</masterLabel>
+            <translation><!-- Win Loss Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win Reason</masterLabel>
+            <translation><!-- Win Reason --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source OpCo --></label>
+        <name>Source_OpCo__c</name>
+        <picklistValues>
+            <masterLabel>Beckman</masterLabel>
+            <translation><!-- Beckman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDBS</masterLabel>
+            <translation><!-- IDBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leica</masterLabel>
+            <translation><!-- Leica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldev</masterLabel>
+            <translation><!-- Moldev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCIEX</masterLabel>
+            <translation><!-- SCIEX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Value --></label>
+        <name>Source_Value__c</name>
+    </fields>
+    <layouts>
+        <layout>Mapping Master Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

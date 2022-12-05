@@ -1,0 +1,17 @@
+<aura:component controller="TransferButtonCmpController" implements="force:appHostable,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="Oppty" type="Object"/>
+    <aura:attribute type="Object" name="record"/>
+    <aura:attribute name="recordLoadError" type="String"/>
+     <aura:handler  name="init" value="{!this}" action="{!c.doinit}"/>
+    
+    
+  <!--  <force:recordData aura:id="record"
+                      recordId="{!v.recordId}"
+                      fields="Name,Status,Interface_Status__c"
+                      targetFields="{!v.Oppty}"
+                      targetError="{!v.recordLoadError}"
+                      targetRecord="{!v.record}"  
+                      recordUpdated="{!c.doInit}"                  
+                      /> -->
+</aura:component>

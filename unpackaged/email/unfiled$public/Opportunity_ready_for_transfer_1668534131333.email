@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Good news!<br />
+<br />
+Your opportunity contact and account have been created in the OpCo org.<br />
+<br />
+You can now transfer your Opportunity. Please navigate to the opportunity below and click Transfer.<br />
+<br />
+Oppportunity Name:&nbsp;{{{Opportunity.Name}}}<br />
+Opportunity link:&nbsp;{{{Opportunity.link}}}</span></span></body>
+</html>

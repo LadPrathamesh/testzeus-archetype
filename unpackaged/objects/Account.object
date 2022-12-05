@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Account_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Account_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Phone</fields>
+        <fields>BillingAddress</fields>
+        <fields>Website</fields>
+        <fields>OwnerId</fields>
+        <label>Account Compact Layout</label>
+    </compactLayouts>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AccountSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Chief_Executive_Officer_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Chief Executive Officer - Full Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chief_Executive_Officer_Prefix__c</fullName>
+        <externalId>false</externalId>
+        <label>Chief Executive Officer - Prefix</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chief_Executive_Officer_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Chief Executive Officer - Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country_Access_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Access Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Currency_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Currency Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DUNS_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>DUNS Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>D_B_Continent_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>D&amp;B Continent Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Domestic_Ultimate_Business_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Domestic Ultimate Business Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Domestic_Ultimate_DUNS_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Domestic Ultimate DUNS Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Domestic_Ultimate_D_B_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Domestic Ultimate D&amp;B  Country Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Domestic_Ultimate_FIPS_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Domestic Ultimate FIPS  Country Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Domestic_Ultimate_State_Province_Abbrevi__c</fullName>
+        <externalId>false</externalId>
+        <label>Domestic Ultimate State/Province Abbrevi</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Employees_Here_Reliability_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Employees Here Reliability Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Employees_Here__c</fullName>
+        <externalId>false</externalId>
+        <label>Employees Here</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Employees_Total_Reliability_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Employees Total Reliability Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Facsimile_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Facsimile Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Global_Parent_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+ISBLANK(ParentId), Id, if(ISBLANK(Parent.ParentId), Parent.Id,  Parent.ParentId))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Global Parent Id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Ultimate_Business_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Ultimate Business Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Ultimate_DUNS_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Ultimate DUNS Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Ultimate_D_B_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Ultimate D&amp;B Country Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Ultimate_FIPS_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Ultimate FIPS Country Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Ultimate_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Ultimate Indicator</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Ultimate_State_Province_Abbreviat__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Ultimate State/Province Abbreviat</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Headquarter_DUNS_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Headquarter DUNS Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hierarchy_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Hierarchy Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Source: Moldev (Industry), SCIEX (Industry), IDBS (Industry), Leica (Industry,Department,Sub Department,Division) &amp; Beckman (Industry)</inlineHelpText>
+        <label>Industry</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Academic</fullName>
+                    <default>false</default>
+                    <label>Academic</label>
+                </value>
+                <value>
+                    <fullName>Aerospace &amp; Defense</fullName>
+                    <default>false</default>
+                    <label>Aerospace &amp; Defense</label>
+                </value>
+                <value>
+                    <fullName>Agriculture</fullName>
+                    <default>false</default>
+                    <label>Agriculture</label>
+                </value>
+                <value>
+                    <fullName>Apparel</fullName>
+                    <default>false</default>
+                    <label>Apparel</label>
+                </value>
+                <value>
+                    <fullName>Banking</fullName>
+                    <default>false</default>
+                    <label>Banking</label>
+                </value>
+                <value>
+                    <fullName>Biosecurity</fullName>
+                    <default>false</default>
+                    <label>Biosecurity</label>
+                </value>
+                <value>
+                    <fullName>Biotechnology</fullName>
+                    <default>false</default>
+                    <label>Biotechnology</label>
+                </value>
+                <value>
+                    <fullName>Chemicals</fullName>
+                    <default>false</default>
+                    <label>Chemicals</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Construction</fullName>
+                    <default>false</default>
+                    <label>Construction</label>
+                </value>
+                <value>
+                    <fullName>Consulting</fullName>
+                    <default>false</default>
+                    <label>Consulting</label>
+                </value>
+                <value>
+                    <fullName>Contract Research Organizations</fullName>
+                    <default>false</default>
+                    <label>Contract Research Organizations</label>
+                </value>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>Electronics</fullName>
+                    <default>false</default>
+                    <label>Electronics</label>
+                </value>
+                <value>
+                    <fullName>Energy</fullName>
+                    <default>false</default>
+                    <label>Energy</label>
+                </value>
+                <value>
+                    <fullName>Engineering</fullName>
+                    <default>false</default>
+                    <label>Engineering</label>
+                </value>
+                <value>
+                    <fullName>Entertainment</fullName>
+                    <default>false</default>
+                    <label>Entertainment</label>
+                </value>
+                <value>
+                    <fullName>Environmental</fullName>
+                    <default>false</default>
+                    <label>Environmental</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+                <value>
+                    <fullName>Food &amp; Beverage</fullName>
+                    <default>false</default>
+                    <label>Food &amp; Beverage</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Healthcare</fullName>
+                    <default>false</default>
+                    <label>Healthcare</label>
+                </value>
+                <value>
+                    <fullName>Hospitality</fullName>
+                    <default>false</default>
+                    <label>Hospitality</label>
+                </value>
+                <value>
+                    <fullName>Insurance</fullName>
+                    <default>false</default>
+                    <label>Insurance</label>
+                </value>
+                <value>
+                    <fullName>Legal</fullName>
+                    <default>false</default>
+                    <label>Legal</label>
+                </value>
+                <value>
+                    <fullName>Machinery</fullName>
+                    <default>false</default>
+                    <label>Machinery</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing</fullName>
+                    <default>false</default>
+                    <label>Manufacturing</label>
+                </value>
+                <value>
+                    <fullName>Media</fullName>
+                    <default>false</default>
+                    <label>Media</label>
+                </value>
+                <value>
+                    <fullName>Not For Profit</fullName>
+                    <default>false</default>
+                    <label>Not For Profit</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pharmaceutical</fullName>
+                    <default>false</default>
+                    <label>Pharmaceutical</label>
+                </value>
+                <value>
+                    <fullName>Real Estate</fullName>
+                    <default>false</default>
+                    <label>Real Estate</label>
+                </value>
+                <value>
+                    <fullName>Recreation</fullName>
+                    <default>false</default>
+                    <label>Recreation</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>Shipping</fullName>
+                    <default>false</default>
+                    <label>Shipping</label>
+                </value>
+                <value>
+                    <fullName>Technology</fullName>
+                    <default>false</default>
+                    <label>Technology</label>
+                </value>
+                <value>
+                    <fullName>Telecommunications</fullName>
+                    <default>false</default>
+                    <label>Telecommunications</label>
+                </value>
+                <value>
+                    <fullName>Transportation</fullName>
+                    <default>false</default>
+                    <label>Transportation</label>
+                </value>
+                <value>
+                    <fullName>Utilities</fullName>
+                    <default>false</default>
+                    <label>Utilities</label>
+                </value>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>false</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Is_Key_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Key Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Key_Term_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Term 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Term_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Term 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Term_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Term 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Term_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Term 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Term_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Term 5</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Term_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Term 6</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Line_of_Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Line of Business</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Mailing Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_City_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Mailing City Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Mailing Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_State_Province_Abbreviation__c</fullName>
+        <externalId>false</externalId>
+        <label>Mailing State/Province Abbreviation</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Major_Industry_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Major Industry Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_Segment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Source: Moldev (Industry), SCIEX (Institution Type), IDBS (None), Leica (Market Segment, Business Division) &amp; Beckman (Key Account, Special Designation)</inlineHelpText>
+        <label>Market Segment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Academia</fullName>
+                    <default>false</default>
+                    <label>Academia</label>
+                </value>
+                <value>
+                    <fullName>CRO</fullName>
+                    <default>false</default>
+                    <label>CRO</label>
+                </value>
+                <value>
+                    <fullName>Food &amp; Beverage</fullName>
+                    <default>false</default>
+                    <label>Food &amp; Beverage</label>
+                </value>
+                <value>
+                    <fullName>Hospital</fullName>
+                    <default>false</default>
+                    <label>Hospital</label>
+                </value>
+                <value>
+                    <fullName>Pharma</fullName>
+                    <default>false</default>
+                    <label>Pharma</label>
+                </value>
+                <value>
+                    <fullName>Biotech</fullName>
+                    <default>false</default>
+                    <label>Biotech</label>
+                </value>
+                <value>
+                    <fullName>Non-Life Science Industrial</fullName>
+                    <default>false</default>
+                    <label>Non-Life Science Industrial</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Number_of_Childs__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Childs</label>
+        <summaryForeignKey>OpCo_Account__c.Account__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Family_Members__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Family Members</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpCo_Contact_Data__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OpCo Contact Data</label>
+        <referenceTo>OpCo_Additional_Comment__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ownership</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Parent_DUNS_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent DUNS Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Headquarter_Business_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent/Headquarter Business Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Headquarter_D_B_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent/Headquarter D&amp;B Country Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Headquarter_FIPS_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent/Headquarter FIPS Country Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Headquarter_State_Province_Abbrev__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent/Headquarter State/Province Abbrev</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Volume_Local_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Volume (Local Currency)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Volume_US_Dollars__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Volume (US Dollars)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Search_Keys__c</fullName>
+        <externalId>false</externalId>
+        <label>Search Keys</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Sic</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>SicDesc</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Site</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Site_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Site Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>State_Province_Abbreviation__c</fullName>
+        <externalId>false</externalId>
+        <label>State/Province Abbreviation</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subsidiary_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <label>Subsidiary Indicator</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TickerSymbol</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Tier</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Childs__c</fullName>
+        <externalId>false</externalId>
+        <formula>Number_of_Childs__c + Parent.Number_of_Childs__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Childs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_OpCo_Accounts__c</fullName>
+        <externalId>false</externalId>
+        <label>Total OpCo Accounts</label>
+        <summaryForeignKey>OpCo_Account__c.Account__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Opportunities__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Opportunities</label>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Tradestyle_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Tradestyle Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Source: Moldev (Type), SCIEX (Type, Location Type, Customer Account Type), IDBS (Type), Leica (Corporate Account Type, Special Account Type, Account Type) &amp; Beckman (Type)</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Global HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Global HQ</label>
+                </value>
+                <value>
+                    <fullName>Main HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Main HQ</label>
+                </value>
+                <value>
+                    <fullName>International HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - International HQ</label>
+                </value>
+                <value>
+                    <fullName>Subsidiary</fullName>
+                    <default>false</default>
+                    <label>MOL - Subsidiary</label>
+                </value>
+                <value>
+                    <fullName>MOL - Branch</fullName>
+                    <default>false</default>
+                    <label>MOL - Branch</label>
+                </value>
+                <value>
+                    <fullName>University</fullName>
+                    <default>false</default>
+                    <label>MOL - University</label>
+                </value>
+                <value>
+                    <fullName>US HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - US HQ</label>
+                </value>
+                <value>
+                    <fullName>Canada HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Canada HQ</label>
+                </value>
+                <value>
+                    <fullName>UK HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - UK HQ</label>
+                </value>
+                <value>
+                    <fullName>France HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - France HQ</label>
+                </value>
+                <value>
+                    <fullName>Germany HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Germany HQ</label>
+                </value>
+                <value>
+                    <fullName>Spain HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Spain HQ</label>
+                </value>
+                <value>
+                    <fullName>Netherlands HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Netherlands HQ</label>
+                </value>
+                <value>
+                    <fullName>Switzerland HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Switzerland HQ</label>
+                </value>
+                <value>
+                    <fullName>Sweden HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Sweden HQ</label>
+                </value>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>MOL - Distributor</label>
+                </value>
+                <value>
+                    <fullName>MOL - Single Location</fullName>
+                    <default>false</default>
+                    <label>MOL - Single Location</label>
+                </value>
+                <value>
+                    <fullName>MOL - Italy HQ</fullName>
+                    <default>false</default>
+                    <label>MOL - Italy HQ</label>
+                </value>
+                <value>
+                    <fullName>Agent</fullName>
+                    <default>false</default>
+                    <label>MOL - Agent</label>
+                </value>
+                <value>
+                    <fullName>Reseller</fullName>
+                    <default>false</default>
+                    <label>MOL - Reseller</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>MOL - Other</label>
+                </value>
+                <value>
+                    <fullName>IDB - Competitor</fullName>
+                    <default>false</default>
+                    <label>IDB - Competitor</label>
+                </value>
+                <value>
+                    <fullName>IDB - Customer</fullName>
+                    <default>false</default>
+                    <label>IDB - Customer</label>
+                </value>
+                <value>
+                    <fullName>IDB - Partner</fullName>
+                    <default>false</default>
+                    <label>IDB - Partner</label>
+                </value>
+                <value>
+                    <fullName>IDB - Prospect</fullName>
+                    <default>false</default>
+                    <label>IDB - Prospect</label>
+                </value>
+                <value>
+                    <fullName>IDB - Reseller</fullName>
+                    <default>false</default>
+                    <label>IDB - Reseller</label>
+                </value>
+                <value>
+                    <fullName>IDB - Other</fullName>
+                    <default>false</default>
+                    <label>IDB - Other</label>
+                </value>
+                <value>
+                    <fullName>IDB - Site Closed</fullName>
+                    <default>false</default>
+                    <label>IDB - Site Closed</label>
+                </value>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                    <label>IDB - Lead</label>
+                </value>
+                <value>
+                    <fullName>Delete</fullName>
+                    <default>false</default>
+                    <label>IDB - Delete</label>
+                </value>
+                <value>
+                    <fullName>Key Strategic Account</fullName>
+                    <default>false</default>
+                    <label>LEI - Key Strategic Account</label>
+                </value>
+                <value>
+                    <fullName>Key Customer</fullName>
+                    <default>false</default>
+                    <label>LEI - Key Customer</label>
+                </value>
+                <value>
+                    <fullName>Important Customer</fullName>
+                    <default>false</default>
+                    <label>LEI - Important Customer</label>
+                </value>
+                <value>
+                    <fullName>CN- Class 3 &amp; Grade A</fullName>
+                    <default>false</default>
+                    <label>LEI - CN- Class 3 &amp; Grade A</label>
+                </value>
+                <value>
+                    <fullName>CN- Class 3</fullName>
+                    <default>false</default>
+                    <label>LEI - CN- Class 3</label>
+                </value>
+                <value>
+                    <fullName>CN- Class 2</fullName>
+                    <default>false</default>
+                    <label>LEI - CN- Class 2</label>
+                </value>
+                <value>
+                    <fullName>CN- Medical Group</fullName>
+                    <default>false</default>
+                    <label>LEI - CN- Medical Group</label>
+                </value>
+                <value>
+                    <fullName>CN- Non-Medical group</fullName>
+                    <default>false</default>
+                    <label>LEI - CN- Non-Medical group</label>
+                </value>
+                <value>
+                    <fullName>ASC</fullName>
+                    <default>false</default>
+                    <label>LEI - ASC</label>
+                </value>
+                <value>
+                    <fullName>ASC - Physician Owned</fullName>
+                    <default>false</default>
+                    <label>LEI - ASC - Physician Owned</label>
+                </value>
+                <value>
+                    <fullName>Hospital</fullName>
+                    <default>false</default>
+                    <label>LEI - Hospital</label>
+                </value>
+                <value>
+                    <fullName>Teaching Hospital</fullName>
+                    <default>false</default>
+                    <label>LEI - Teaching Hospital</label>
+                </value>
+                <value>
+                    <fullName>Dealer</fullName>
+                    <default>false</default>
+                    <label>LEI - Dealer</label>
+                </value>
+                <value>
+                    <fullName>Parent Account</fullName>
+                    <default>false</default>
+                    <label>LEI - Parent Account</label>
+                </value>
+                <value>
+                    <fullName>Specialised Hospital</fullName>
+                    <default>false</default>
+                    <label>LEI - Specialised Hospital</label>
+                </value>
+                <value>
+                    <fullName>NA LSR Top 50 Accounts</fullName>
+                    <default>false</default>
+                    <label>LEI - NA LSR Top 50 Accounts</label>
+                </value>
+                <value>
+                    <fullName>NA MED Top 25 Accounts</fullName>
+                    <default>false</default>
+                    <label>LEI - NA MED Top 25 Accounts</label>
+                </value>
+                <value>
+                    <fullName>CN Double first class</fullName>
+                    <default>false</default>
+                    <label>LEI - CN Double first class</label>
+                </value>
+                <value>
+                    <fullName>Public Hospital</fullName>
+                    <default>false</default>
+                    <label>LEI - Public Hospital</label>
+                </value>
+                <value>
+                    <fullName>Private Hospital</fullName>
+                    <default>false</default>
+                    <label>LEI - Private Hospital</label>
+                </value>
+                <value>
+                    <fullName>Excellence Department</fullName>
+                    <default>false</default>
+                    <label>LEI - Excellence Department</label>
+                </value>
+                <value>
+                    <fullName>BEC - Reseller</fullName>
+                    <default>false</default>
+                    <label>BEC - Reseller</label>
+                </value>
+                <value>
+                    <fullName>BEC - Other</fullName>
+                    <default>false</default>
+                    <label>BEC - Other</label>
+                </value>
+                <value>
+                    <fullName>Competitor</fullName>
+                    <default>false</default>
+                    <label>BEC - Competitor</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>BEC - Customer</label>
+                </value>
+                <value>
+                    <fullName>Integrator</fullName>
+                    <default>false</default>
+                    <label>BEC - Integrator</label>
+                </value>
+                <value>
+                    <fullName>Investor</fullName>
+                    <default>false</default>
+                    <label>BEC - Investor</label>
+                </value>
+                <value>
+                    <fullName>Partner</fullName>
+                    <default>false</default>
+                    <label>BEC - Partner</label>
+                </value>
+                <value>
+                    <fullName>Press</fullName>
+                    <default>false</default>
+                    <label>BEC - Press</label>
+                </value>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>false</default>
+                    <label>BEC - Prospect</label>
+                </value>
+                <value>
+                    <fullName>Beckman Coulter</fullName>
+                    <default>false</default>
+                    <label>BEC - Beckman Coulter</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>SCI - Global</label>
+                </value>
+                <value>
+                    <fullName>Regional</fullName>
+                    <default>false</default>
+                    <label>SCI - Regional</label>
+                </value>
+                <value>
+                    <fullName>Branch</fullName>
+                    <default>false</default>
+                    <label>SCI - Branch</label>
+                </value>
+                <value>
+                    <fullName>HQ/Parent</fullName>
+                    <default>false</default>
+                    <label>SCI - HQ/Parent</label>
+                </value>
+                <value>
+                    <fullName>Single Location</fullName>
+                    <default>false</default>
+                    <label>SCI - Single Location</label>
+                </value>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>false</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>X3_Year_Base_Sales_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>3 Year Base Sales Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X3_Year_Growth_Percentage_on_Sales_Volum__c</fullName>
+        <externalId>false</externalId>
+        <label>3 Year Growth Percentage on Sales Volume</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X5_Year_Base_Sales_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>5 Year Base Sales Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X5_Year_Growth_Percentage_on_Sales_Volum__c</fullName>
+        <externalId>false</externalId>
+        <label>5 Year Growth Percentage on Sales Volume</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>DUNS_Number__c</columns>
+        <columns>Search_Keys__c</columns>
+        <columns>Is_Key_Account__c</columns>
+        <columns>ACCOUNT.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Key_Accounts_Child_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.LAST_UPDATE</columns>
+        <columns>ACCOUNT_SOURCE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PARENT_NAME</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>All Key Accounts - Sites</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Key_Accounts_Only</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT_SOURCE</columns>
+        <columns>Is_Key_Account__c</columns>
+        <columns>Search_Keys__c</columns>
+        <columns>ACCOUNT.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_Key_Account__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Key Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>All_NOT_TO_USE_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>Total_OpCo_Accounts__c</columns>
+        <columns>ACCOUNT.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>contains</operation>
+            <value>DO NOT USE</value>
+        </filters>
+        <label>All DO NOT USE Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Parent_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT_SOURCE</columns>
+        <columns>Is_Key_Account__c</columns>
+        <columns>Search_Keys__c</columns>
+        <columns>ACCOUNT.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PARENT_NAME</field>
+            <operation>equals</operation>
+        </filters>
+        <label>All Parent Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>All_XUNMATCHED_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>Total_OpCo_Accounts__c</columns>
+        <columns>ACCOUNT.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>contains</operation>
+            <value>XUNMATCHED</value>
+        </filters>
+        <label>All XUNMATCHED Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Is_Key_Account__c</columns>
+        <columns>Search_Keys__c</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>ACCOUNT_SOURCE</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>Org_Account_Hierarchy</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+        <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+        <columns>DUNS_Number__c</columns>
+        <columns>Total_OpCo_Accounts__c</columns>
+        <columns>Total_Opportunities__c</columns>
+        <columns>Hierarchy_Code__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Org_Account_Hierarchy</label>
+    </listViews>
+    <listViews>
+        <fullName>XUNMATCHED_Child_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>Total_OpCo_Accounts__c</columns>
+        <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+        <columns>ACCOUNT.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>contains</operation>
+            <value>XUNMATCHED</value>
+        </filters>
+        <label>XUNMATCHED Child Accounts</label>
+    </listViews>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.ADDRESS1_STREET</fields>
+        <fields>ACCOUNT.ADDRESS1_CITY</fields>
+        <fields>ACCOUNT.ADDRESS1_STATE</fields>
+        <fields>ACCOUNT.ADDRESS1_ZIP</fields>
+        <fields>ACCOUNT.ADDRESS1_COUNTRY</fields>
+        <fields>DUNS_Number__c</fields>
+        <fields>Is_Key_Account__c</fields>
+        <fields>Search_Keys__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
+    <searchLayouts>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_STREET</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_STATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_ZIP</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_COUNTRY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DUNS_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Key_Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Search_Keys__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_STREET</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_CITY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_STATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_ZIP</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_COUNTRY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DUNS_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Is_Key_Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Search_Keys__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Keywords_Rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(CONTAINS(Search_Keys__c, &apos;,,&apos;),true,false)</errorConditionFormula>
+        <errorDisplayField>Search_Keys__c</errorDisplayField>
+        <errorMessage>Search Key Terms should not have any operators except comma (,) &amp; also no two consecutive commas (,,)</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Clone</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Clone</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/{!Account.Id}/e?clone=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account_BillingStreet}+{!Account_BillingCity}+{!Account_BillingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Account_Name}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Account_Name}</url>
+    </webLinks>
+</CustomObject>

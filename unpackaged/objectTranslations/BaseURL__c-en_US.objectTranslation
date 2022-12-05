@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OpCo Base URL</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OpCo Base URL</value>
+    </caseValues>
+    <fields>
+        <label><!-- Beckman --></label>
+        <name>Beckman__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactBatchLimitField --></label>
+        <name>ContactBatchLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDBS --></label>
+        <name>IDBS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leica --></label>
+        <name>Leica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Moldev --></label>
+        <name>Moldev__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCIEX --></label>
+        <name>SCIEX__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

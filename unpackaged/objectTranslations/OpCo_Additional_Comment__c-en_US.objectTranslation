@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OpCo Additional Comment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OpCo Additional Comments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpCo Related Contact --></label>
+        <name>OpCo_Related_Contact__c</name>
+        <relationshipLabel><!-- OpCo Additional Comments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity OpCo Record Id --></label>
+        <name>Opportunity_OpCo_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- OpCo Additional Comments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Contact OpCo Record Id --></label>
+        <name>Related_Contact_OpCo_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source OpCo --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Beckman</masterLabel>
+            <translation><!-- Beckman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDBS</masterLabel>
+            <translation><!-- IDBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leica</masterLabel>
+            <translation><!-- Leica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MolDev</masterLabel>
+            <translation><!-- MolDev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCIEX</masterLabel>
+            <translation><!-- SCIEX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <layouts>
+        <layout>OpCo Contact Data Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
